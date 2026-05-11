@@ -1,0 +1,5 @@
+# Lab Summary
+
+In this lab, we successfully integrated MCP (Model Context Protocol) with LangChain to build an AI agent capable of interacting with external systems through standardized tools and resources. Using a filesystem MCP server, the agent was able to list files, read documents, search content, and generate summaries using MCP tools inside a LangChain workflow. This demonstrated how MCP simplifies connecting AI agents to external systems while improving scalability, maintainability, and interoperability.
+
+The lab also explored the difference between MCP integration and direct API integration by implementing similar functionality using both approaches. MCP integration provided a more reusable and structured architecture suitable for enterprise-scale AI systems, while direct API integration was simpler and faster for smaller projects but required more custom code and maintenance. Overall, the lab highlighted the benefits of MCP for building flexible and extensible AI agent applications.
